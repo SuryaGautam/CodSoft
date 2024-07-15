@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #020912;
+}
+.intro-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("./images/background1.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.heading-section {
+  width: 100%;
+  color: white;
+  padding-left: 3%;
+  font-family: "Poppins", sans-serif;
+}
+.intro-heading {
+  font-size: 6rem;
+  font-weight: 500;
+  margin-bottom: 1%;
+}
+.name {
+  display: inline;
+  color: #98e8cd;
+  font-size: 6rem;
+  font-weight: 500;
+  margin-bottom: 1%;
+}
+.intro-sub-heading {
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-bottom: 1%;
+}
+.intro-button {
+  font-family: "aileron", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #020912;
+  color: white;
+  border: 2px solid #98e8cd;
+  border-radius: 50px;
+  padding: 1% 4%;
+  margin-top: 5%;
+  transition: background-color 0.5s ease;
+}
+.intro-button:hover {
+  background-color: #98e8cd;
+  font-weight: 700;
+}
+
+/* About Section */
+
+.about-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #020912;
+}
+
+.about-container {
+  padding: 4%;
+}
+
+.about-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 2%;
+  color: #98e8cd;
+}
+.about-description {
+  font-family: "aileron", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: white;
+}
+.about-image {
+  width: 100%;
+  margin-top: 3%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Credentials Section */
+
+.credentials-section {
+  background-image: url("./images/background2.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.credentials-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: white;
+  padding: 5% 4% 2% 5%;
+}
+
+.credentials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+}
+
+.education-section {
+  display: flex;
+  width: 55%;
+  margin-bottom: 4%;
+}
+.education-section h1 {
+  color: #98e8cd;
+  font-size: 2.5rem;
+}
+
+.education-description {
+  font-family: "aileron", sans-serif;
+  margin-left: 5%;
+}
+
+.education-description p {
+  font-size: 1.5rem;
+  margin-bottom: 4%;
+}
+
+.skill-section {
+  display: flex;
+  width: 55%;
+  margin-bottom: 4%;
+}
+.skill-section h1 {
+  color: #98e8cd;
+  font-size: 2.5rem;
+}
+
+.skill-description {
+  font-family: "aileron", sans-serif;
+  margin-left: 17%;
+}
+
+.skill-description p {
+  font-size: 1.5rem;
+  margin-bottom: 6%;
+}
+
+/* Project Section */
+
+.project-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.project-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #98e8cd;
+  padding: 5% 4% 2% 5%;
+}
+
+.project-container {
+  font-family: "aileron", sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  color: white;
+}
+
+.project-image {
+  width: 350px;
+  margin-top: 10%;
+  height: 350px;
+  object-fit: cover;
+}
+/* Contact Section */
+
+.contact-section {
+  background-image: url("./images/background3.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: white;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.gmail {
+  font-family: "aileron", sans-serif;
+  padding-left: 5%;
+  font-size: 1.5rem;
+  color: #98e8cd;
+}
+
+.contact-container {
+  width: 30%;
+  margin: 3% 5%;
+  padding: 1% 2%;
+  border: 2px solid white;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 4%;
+}
+
+.form-group label {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 3%;
+}
+
+.form-group input {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  padding: 1%;
+  width: 97%;
+  border-radius: 5px;
+}
+
+.submit-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  color: white;
+  background-color: #020912;
+  border: 2px solid #98e8cd;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  transition: background-color 0.5s ease;
+  background-color: #98e8cd;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .intro-heading {
+    font-size: 4rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .intro-sub-heading {
+    font-size: 2rem;
+  }
+  .intro-button {
+    font-size: 0.9rem;
+    padding: 1% 3%;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro-heading {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.8rem;
+  }
+
+  .intro-button {
+    font-size: 0.8rem;
+    padding: 1% 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-section{
+    height: 50vh;
+  }
+  .heading-section {
+    padding-left: 2%;
+  }
+  .intro-heading {
+    font-size: 2.5rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+  }
+  .intro-button {
+    font-size: 0.7rem;
+    padding: 1% 2%;
+  }
+  .about-description {
+    font-size: 1.2rem;
+  }
+  .about-image {
+    height: 250px;
+  }
+  .credentials-section {
+    height: 100vh;
+  }
+  .education-section {
+    flex-direction: column;
+  }
+  .education-description {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .skill-section {
+    flex-direction: column;
+  }
+  .skill-description {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .credentials-container > div {
+    width: 95%;
+  }
+  .project-section {
+    height: 50vh;
+  }
+  .project-image {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+  }
+  .contact-section{
+    margin-top: 5%;
+    text-align: center;
+  }
+  .contact-container {
+    text-align: left;
+    width: 80%;
+    margin:10%;
+  }
+  .contact-section{
+    height: 80vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-heading {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.2rem;
+  }
+  .intro-button {
+    font-size: 0.6rem;
+    padding: 1% 1.5%;
+  }
+  .about-heading {
+    font-size: 2.5rem;
+  }
+  .about-description {
+    font-size: 1rem;
+  }
+  .about-image {
+    height: 200px;
+  }
+  .credentials-heading {
+    font-size: 2.5rem;
+  }
+  .education-section h1,
+  .skill-section h1 {
+    font-size: 2rem;
+  }
+  .education-description p,
+  .skill-description p {
+    font-size: 1rem;
+  }
+  .project-heading {
+    font-size: 2.5rem;
+  }
+  .contact-heading {
+    font-size: 2.5rem;
+  }
+  .gmail {
+    font-size: 1.2rem;
+  }
+}
